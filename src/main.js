@@ -9,13 +9,13 @@ const apps = [
     name: 'vueApp',
     entry: 'https://13593594926.github.io/qiankun_vue/dist/index',
     container: '#vue',
-    activeRule: '/vue'
+    activeRule: '/qiankun_base/dist/vue'
   },
   {
     name: 'reactApp',
     entry: 'https://13593594926.github.io/qiankun_react/build/index',
     container: '#react',
-    activeRule: '/react'
+    activeRule: '/qiankun_base/dist/react'
   },
 ]
 registerMicroApps(apps) // 注册应用
