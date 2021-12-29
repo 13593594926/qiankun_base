@@ -4,7 +4,7 @@ import home from '@/views/Home.vue'
 import VueRouter from 'vue-router';
 const routes = [
     {
-        path: '/',
+        path: '/qiankun_base/dist/',
         component: home
     }
 ]
