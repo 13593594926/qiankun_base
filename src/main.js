@@ -4,6 +4,7 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import router from './router/index';
 import { registerMicroApps, start } from 'qiankun'
+import directive from './utils/directive'
 const apps = [
   {
     name: 'vueApp',
@@ -24,7 +25,7 @@ start({
 }) // 开启
 Vue.config.productionTip = false
 Vue.use(ElementUI);
-
+Vue.use(directive);
 
 new Vue({
   render: h => h(App),
